@@ -13,7 +13,7 @@ char pass[] = "wifisifresi";        // Wifi ağının şifresi
 #define DHTPIN 4                    // Dht11'in sinyal bacağının bağlandığı pin 
 
 
-#define DHTTYPE DHT11               // DHT 11 - Kullanılan DHT11 tipi
+#define DHTTYPE DHT11               // DHT 11 - Kullanılan DHT tipi
 //#define DHTTYPE DHT22             // DHT 22, AM2302, AM2321
 //#define DHTTYPE DHT21             // DHT 21, AM2301
 
