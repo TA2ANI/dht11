@@ -20,7 +20,6 @@ char pass[] = "wifisifresi";        // Wifi ağının şifresi
 DHT dht(DHTPIN, DHTTYPE);
 BlynkTimer timer;
 
-
 void sendSensor()
 {
   float h = dht.readHumidity();
@@ -50,7 +49,6 @@ void sendSensor()
 ***************************************/
 }
 
-
 void setup()
 {
   Serial.begin(9600);
@@ -59,7 +57,6 @@ void setup()
   dht.begin();
   timer.setInterval(1000L, sendSensor);
 }
-
 
 
 void loop()
